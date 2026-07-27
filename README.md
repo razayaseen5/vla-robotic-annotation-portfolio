@@ -12,6 +12,13 @@ To prove rigorous QA evaluation and precision, every annotation strictly adheres
 * **Subtask Summaries:** Broken down into atomic actions, written in the first-person perspective ("I will..."), utilizing camera spatial perspective.
 * **Final Summaries & Outcomes:** Past-tense evaluations that accurately log successful completions, suboptimal jerky movements, system hangs, and complete physical failures.
 
+## 🎬 Task Previews
+
+| Task 01: Bimanual Tissue Tear | Task 02: Coffee Machine Operations |
+| :---: | :---: |
+| <img src="assets/task_01_preview.gif" width="400"/> | <img src="assets/task_02_preview.gif" width="400"/> |
+| *Bimanual tissue tearing and placement action* | *Multi-step coffee pouch loading and machine interaction* |
+
 ---
 
 ## 📁 Repository Architecture
