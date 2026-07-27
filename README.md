@@ -21,3 +21,20 @@ To prove rigorous QA evaluation and precision, every annotation strictly adheres
 *   Model Alignment Workflows
 *   Strict Formatting Constraint Adherence
 *   JSON Data Schema Generation
+
+*   ## 🔗 Data Sources & Attribution
+
+The video clips in this portfolio were curated and cropped from open-source robotics datasets hosted on Hugging Face:
+
+| Task ID | Task Description | Source Dataset (Hugging Face) |
+| :--- | :--- | :--- |
+| `task_01` | Tear Tissue & Place near Can | `lerobot/aloha_static_tissue` |
+| `task_02` | Load Coffee Machine | [`lerobot/aloha_static_coffee_new`](https://huggingface.co/datasets/lerobot/aloha_static_coffee_new) |
+| `task_03` | Wipe Spilled Wine | [`lerobot/aloha_mobile_wipe_wine`](https://huggingface.co/datasets/lerobot/aloha_mobile_wipe_wine) |
+| `task_04` | Open Plastic Container Lid | [`lerobot/aloha_static_vinh_cup_left`](https://huggingface.co/datasets/lerobot/aloha_static_vinh_cup_left) |
+| `task_05` | Ping Pong Ball Transfer | [`lerobot/aloha_static_pingpong_test`](https://huggingface.co/datasets/lerobot/aloha_static_pingpong_test) |
+| `task_06` | Pour Balls into Mug | [`lerobot/dlr_sara_pour`](https://huggingface.co/datasets/lerobot/dlr_sara_pour) |
+| `task_07a` | Stack Tower (Success) | [`lerobot/roboturk`](https://huggingface.co/datasets/lerobot/roboturk) |
+| `task_07b` | Stack Tower (Collapse) | [`lerobot/roboturk`](https://huggingface.co/datasets/lerobot/roboturk) |
+| `task_08` | Place Object in Red Bowl | [`kevin510/lerobot-cat-toy-placement`](https://huggingface.co/datasets/kevin510/lerobot-cat-toy-placement) |
+| `task_09` | Grasp Maroon Apple (Fail) | [`Clementppr/lerobot_pick_and_place_dataset_world_model`](https://huggingface.co/datasets/Clementppr/lerobot_pick_and_place_dataset_world_model) |
