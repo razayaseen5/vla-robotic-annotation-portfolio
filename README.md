@@ -4,12 +4,6 @@ This repository contains a highly structured, human-annotated dataset of 10 robo
 
 ---
 
-
-<img width="800" height="413" alt="task_02_preview" src="https://github.com/user-attachments/assets/9b5b23a4-88d3-41f6-aab0-c3c9808feae7" />
-
-<img width="800" height="413" alt="task_01_preview" src="https://github.com/user-attachments/assets/48911691-c66e-45c5-a2a8-5276185e32e8" />
-
-
 ## 🎯 Project Overview
 This dataset maps physical robotic actions (bimanual and single-arm pick-and-place tasks) to both human-readable documentation and machine-readable JSON schemas. The source footage features multi-perspective and egocentric robotic operations curated from open-X embodiment environments on Hugging Face.
 
