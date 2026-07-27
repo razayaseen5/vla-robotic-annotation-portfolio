@@ -1,0 +1,14 @@
+{
+  "task_id": "09",
+  "intent_caption": "Pick up the maroon apple and place it inside the red container",
+  "subtasks": [
+    "I will move my arm toward the maroon apple.",
+    "I will grasp the maroon apple.",
+    "I will lift the maroon apple upward.",
+    "I will move the maroon apple toward the red container.",
+    "I will place the maroon apple inside the container.",
+    "I will return to my initial position."
+  ],
+  "final_summary": "I moved my arm toward the maroon apple and attempted to grasp it, but I completely failed to secure a grip. The system then hung before the arm simply returned to its initial position without lifting the apple.",
+  "outcome": "Failed"
+}

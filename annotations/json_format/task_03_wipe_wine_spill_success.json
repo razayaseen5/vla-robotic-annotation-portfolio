@@ -1,0 +1,14 @@
+{
+  "task_id": "03",
+  "intent_caption": "Wipe the spilled wine on the counter using the black floral cloth",
+  "subtasks": [
+    "I will pick up the black floral cloth with my right arm.",
+    "I will pick up the wine glass with my left arm.",
+    "I will wipe the countertop with the cloth in my right arm.",
+    "I will move the cloth away from the wiped area.",
+    "I will place the wine glass back onto the clean countertop.",
+    "I will release the glass."
+  ],
+  "final_summary": "I picked up the black floral cloth from the washbasin, lifted the wine glass with my left arm, and wiped the spill. However, I mistakenly placed the glass on top of the cloth before correcting the error by lifting the glass again, removing the cloth, and properly placing the glass on the counter.",
+  "outcome": "Completed"
+}

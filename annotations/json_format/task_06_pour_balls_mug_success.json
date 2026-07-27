@@ -1,0 +1,12 @@
+{
+  "task_id": "06",
+  "intent_caption": "Pour the balls from the brown cup into the white mug on the table",
+  "subtasks": [
+    "I will move the brown cup toward the white mug.",
+    "I will position the brown cup directly above the white mug.",
+    "I will tilt the brown cup downward.",
+    "I will pour the balls into the white mug."
+  ],
+  "final_summary": "I moved the brown cup over the white mug and successfully poured the balls inside. However, before executing the pour, I experienced unnecessary slowness and jerky up-and-down motions.",
+  "outcome": "Completed"
+}

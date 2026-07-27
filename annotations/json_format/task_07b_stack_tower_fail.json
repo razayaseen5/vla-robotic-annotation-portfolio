@@ -1,0 +1,14 @@
+{
+  "task_id": "07b",
+  "intent_caption": "Stack the orange bowl on top of the structure to build a tower",
+  "subtasks": [
+    "I will move my arm toward the orange bowl.",
+    "I will grasp the orange bowl.",
+    "I will lift the orange bowl upward.",
+    "I will move the orange bowl toward the stacked cups.",
+    "I will place the orange bowl on top of the stack.",
+    "I will release the orange bowl."
+  ],
+  "final_summary": "I reached for the orange bowl, grasped it, and lifted it upward. I then moved it over the stacked cups and attempted to place it on top, but I jerked, hung up, and completely failed to release it properly, ruining the tower structure.",
+  "outcome": "Failed"
+}

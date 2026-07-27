@@ -1,0 +1,12 @@
+{
+  "task_id": "04",
+  "intent_caption": "Pick up the transparent plastic container and open its lid",
+  "subtasks": [
+    "I will reach for the transparent plastic container.",
+    "I will grasp the container with my right arm.",
+    "I will grasp the lid with my left arm.",
+    "I will pull the lid off the container."
+  ],
+  "final_summary": "I reached for the transparent plastic container but accidentally knocked it over with my left arm. I quickly recovered by picking it back up with my right arm, grasped the lid with my left arm, and successfully pulled it open.",
+  "outcome": "Completed"
+}
