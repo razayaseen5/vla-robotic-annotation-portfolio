@@ -1,5 +1,12 @@
 # Vision-Language-Action (VLA) Robotic Annotation Portfolio
 
+![Format](https://img.shields.io/badge/FORMAT-JSON_%26_MARKDOWN-007EC6?style=for-the-badge)
+![Domain](https://img.shields.io/badge/DOMAIN-EMBODIED_AI-F26522?style=for-the-badge)
+![Task](https://img.shields.io/badge/TASK-VLA_ALIGNMENT-4EAA25?style=for-the-badge)
+![License](https://img.shields.io/badge/LICENSE-MIT-FFC400?style=for-the-badge)
+
+> A high-fidelity, manually annotated video dataset demonstrating advanced model alignment workflows, featuring structural JSON constraints for bimanual and single-arm robotic tasks.
+
 This repository contains a highly structured, human-annotated dataset of 10 robotic manipulation tasks. It is designed to demonstrate strict adherence to data labeling constraints required for training Embodied AI, Large Language Models (LLMs), Vision-Language-Action (VLA) models, and Reinforcement Learning from Human Feedback (RLHF) systems.
 
 ---
