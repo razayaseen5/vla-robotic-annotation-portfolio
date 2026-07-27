@@ -1,19 +1,48 @@
 # Vision-Language-Action (VLA) Robotic Annotation Portfolio
 
-This repository contains a highly structured, human-annotated dataset of 10 robotic manipulation tasks. It is designed to demonstrate strict adherence to data labeling constraints required for training Embodied AI, Large Language Models (LLMs), and Reinforcement Learning from Human Feedback (RLHF) systems.
+This repository contains a highly structured, human-annotated dataset of 10 robotic manipulation tasks. It is designed to demonstrate strict adherence to data labeling constraints required for training Embodied AI, Large Language Models (LLMs), Vision-Language-Action (VLA) models, and Reinforcement Learning from Human Feedback (RLHF) systems.
+
+---
 
 ## 🎯 Project Overview
-This dataset maps physical robotic actions (bimanual and single-arm pick-and-place tasks) to both human-readable documentation and machine-readable JSON schemas. The source footage features multi-perspective and egocentric robotic operations from open-X embodiment environments.
+This dataset maps physical robotic actions (bimanual and single-arm pick-and-place tasks) to both human-readable documentation and machine-readable JSON schemas. The source footage features multi-perspective and egocentric robotic operations curated from open-X embodiment environments on Hugging Face.
 
 To prove rigorous QA evaluation and precision, every annotation strictly adheres to the following industry alignment constraints:
-*   **Intent Captions:** Second-person imperative commands, present tense, strictly unpunctuated at the terminal end.
-*   **Subtask Summaries:** Broken down into atomic actions, written in the first-person perspective ("I will..."), utilizing spatial awareness.
-*   **Final Summaries & Outcomes:** Past-tense evaluations that accurately log successful completions, suboptimal jerky movements, system hangs, and complete physical failures.
+* **Intent Captions:** Second-person imperative commands, present tense, strictly unpunctuated at the terminal end.
+* **Subtask Summaries:** Broken down into atomic actions, written in the first-person perspective ("I will..."), utilizing camera spatial perspective.
+* **Final Summaries & Outcomes:** Past-tense evaluations that accurately log successful completions, suboptimal jerky movements, system hangs, and complete physical failures.
+
+---
 
 ## 📁 Repository Architecture
-*   `/videos`: Contains 10 cropped and optimized MP4 clips of atomic robotic actions.
-*   `/annotations/markdown_format`: Human-readable QA evaluation sheets detailing task intents, subtasks, summaries, and outcomes.
-*   `/annotations/json_format`: Machine-readable dictionary schemas ready for dataset ingestion and model training workflows.
+
+```text
+vla-robotic-annotation-portfolio/
+│
+├── videos/
+│   ├── task_01_tear_tissue_success.mp4
+│   ├── task_02_load_coffee_machine_success.mp4
+│   ├── task_03_wipe_wine_spill_success.mp4
+│   ├── task_04_open_plastic_container_success.mp4
+│   ├── task_05_transfer_pingpong_ball_success.mp4
+│   ├── task_06_pour_balls_mug_success.mp4
+│   ├── task_07a_stack_tower_success.mp4
+│   ├── task_07b_stack_tower_fail.mp4
+│   ├── task_08_place_object_bowl_success.mp4
+│   └── task_09_grasp_apple_fail.mp4
+│
+├── annotations/
+│   ├── markdown_format/
+│   │   ├── task_01_tear_tissue_success.md
+│   │   └── ... (all 10 .md task files)
+│   │
+│   └── json_format/
+│       ├── task_01_tear_tissue_success.json
+│       └── ... (all 10 .json task files)
+│
+└── README.md
+
+```
 
 ## 🛠️ Core Competencies Demonstrated
 *   AI Data Annotation & QA Curation
